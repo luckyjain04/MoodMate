@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.Moodapp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#4A90E2</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.Moodapp.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

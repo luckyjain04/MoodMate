@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bow_bg"
+        android:alpha="0.65" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="MoodMate"
+        android:textStyle="bold"
+        android:fontFamily="@font/momo"
+        android:textSize="60sp"
+        android:textColor="#202C33"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:layout_marginTop="60dp"
+        android:text="RELAX - BREATHE - WRITE"
+        android:textStyle="bold|italic"
+        android:fontFamily="@font/momo"
+        android:textSize="20sp"
+        android:textColor="#202C33"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="16dp"/>
+</FrameLayout>
